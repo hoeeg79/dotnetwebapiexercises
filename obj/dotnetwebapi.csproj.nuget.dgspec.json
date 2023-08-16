@@ -1,30 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "/home/alex/dotnetwebapi/dotnetwebapi.csproj": {}
+    "/Users/lasse/Documents/GitHub/EventManagementSystem/dotnetwebapiexercises/dotnetwebapi.csproj": {}
   },
   "projects": {
-    "/home/alex/dotnetwebapi/dotnetwebapi.csproj": {
+    "/Users/lasse/Documents/GitHub/EventManagementSystem/dotnetwebapiexercises/dotnetwebapi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/alex/dotnetwebapi/dotnetwebapi.csproj",
+        "projectUniqueName": "/Users/lasse/Documents/GitHub/EventManagementSystem/dotnetwebapiexercises/dotnetwebapi.csproj",
         "projectName": "dotnetwebapi",
-        "projectPath": "/home/alex/dotnetwebapi/dotnetwebapi.csproj",
-        "packagesPath": "/home/alex/.nuget/packages/",
-        "outputPath": "/home/alex/dotnetwebapi/obj/",
+        "projectPath": "/Users/lasse/Documents/GitHub/EventManagementSystem/dotnetwebapiexercises/dotnetwebapi.csproj",
+        "packagesPath": "/Users/lasse/.nuget/packages/",
+        "outputPath": "/Users/lasse/Documents/GitHub/EventManagementSystem/dotnetwebapiexercises/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/alex/.nuget/NuGet/NuGet.Config"
+          "/Users/lasse/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net8.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -32,11 +32,14 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "default"
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
@@ -58,20 +61,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[7.0.5, 7.0.5]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.linux-x64",
-              "version": "[7.0.5, 7.0.5]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[7.0.5, 7.0.5]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -80,7 +69,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.100-preview.5.23303.2/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100-preview.7.23376.3/RuntimeIdentifierGraph.json"
         }
       }
     }
