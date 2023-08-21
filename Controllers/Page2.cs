@@ -20,7 +20,7 @@ public class Page2 : ControllerBase, IPage2
     [Route("/{id}")]
     public string GetId([FromRoute] int id)
     {
-        
+        Console.WriteLine(Environment.GetEnvironmentVariable("pgconn"));
         return $"ID is {id} ";
     }
     
@@ -122,7 +122,6 @@ public class TestClass
         string test = Environment.GetEnvironmentVariable("MyVar");
         
         Console.WriteLine(test);
-        
         Assert.AreEqual("Hello World!", test);
     }
 }
